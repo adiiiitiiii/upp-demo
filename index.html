@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPP-DEMO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bank-icon">
+            <img src="images/bank.png" alt="Bank Icon">
+            <div  id="bank" ><br></div>
+        </div>
+        <div class="card-container" id="cardContainer">
+            <div class="card" id="card1">
+                <div class="split-by-text">Split By 50%</div>
+                <div class="amount">$ 0</div>
+            </div>
+            <div class="card" id="card2">
+                <div class="split-by-text">Split By 30%</div>
+                <div class="amount">$ 0</div>
+            </div>
+            <div class="card" id="card3">
+                <div class="split-by-text">Split By 20%</div>
+                <div class="amount">$ 0</div>
+            </div>  
+          </div> 
+        <div class="water"></div>
+        <div class="bridge">
+            <div class="bridge-p1"></div>
+            <div class="bridge-p2"></div>
+            <div class="bridge-p3"></div>
+            <div class="bridge-p4"></div>
+        </div>
+        <div class="toll">
+            <img src="images/toll sign.png" alt="toll" class="toll-img" style="width: 100px; height: auto;">
+        </div>
+        <div class="vertical-rectangular-bar"></div>
+        <div class="car">
+            <div class="car__top"></div>
+            <div class="car__body">
+                <div class="car__bulb"></div>
+                <div class="car__bulb car__bulb--back"></div>
+                <div class="car__center"></div>
+            </div>
+            <div class="car__wheels">
+                <div class="car__wheel car__wheel--1">
+                    <div class="wheel__circle"></div>
+                    <div class="wheel__rect wheel__rect--1"></div>
+                    <div class="wheel__rect wheel__rect--2"></div>
+                    <div class="wheel__rect wheel__rect--3"></div>
+                    <div class="wheel__rect wheel__rect--4"></div>
+                    <div class="wheel__rect wheel__rect--5"></div>
+                    <div class="wheel__rect wheel__rect--6"></div>
+                </div>
+                <div class="car__wheel car__wheel--2">
+                    <div class="wheel__circle"></div>
+                    <div class="wheel__rect wheel__rect--1"></div>
+                    <div class="wheel__rect wheel__rect--2"></div>
+                    <div class="wheel__rect wheel__rect--3"></div>
+                    <div class="wheel__rect wheel__rect--4"></div>
+                    <div class="wheel__rect wheel__rect--5"></div>
+                    <div class="wheel__rect wheel__rect--6"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="images/cloud.png" alt="Cloud" class="cloud-img" style="--delay:1s; --top:10vmin;">
+        </div>
+        <div>
+            <img src="images/cloud.png" alt="Cloud" class="cloud-img" style="--delay:5s; --top:20vmin;">
+        </div>
+        <div>
+            <img src="images/cloud.png" alt="Cloud" class="cloud-img" style="--delay:10s; --top:10vmin;">
+        </div>
+        <div>
+            <img src="images/cloud.png" alt="Cloud" class="cloud-img" style="--delay:15s; --top:10vmin;">
+        </div>
+        <button id="pauseButton">Split</button>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
